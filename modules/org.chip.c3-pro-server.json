@@ -1,0 +1,33 @@
+{
+  "name": "C3-PRO “Receiver” Server",
+  "short": "Serves as point-of-contact with the app and is the only public-facing part of the toolchain.",
+  "description": "The current release runs in a highly reliable AWS environment to ensure high availability and scalability. It's in charge of\n\n- handling REST calls from the App and temporally store encrypted resources to an SQS\n- delivering static content like Questionnaire resources\n- managing OAuth 2 two-legged authentications to authorize App requests",
+  "web": "https://github.com/chb/c3-pro-server",
+  "git": "https://github.com/chb/c3-pro-server.git",
+  "docs": "https://chb.github.io/c3-pro-server/",
+  "author": {
+    "name": "CHIP, Boston Children’s Hospital",
+    "web": "http://chip.org"
+  },
+  "type": [
+    "www"
+  ],
+  "technologies": [
+    "OAuth2",
+    "AWS",
+    "JBoss",
+    "Java"
+  ],
+  "interfaces": {
+    "input": [
+      "Encrypted FHIR Resources",
+      "OAuth2 Client Credentials"
+    ],
+    "output": [
+      "FHIR Resources",
+      "Encrypted FHIR Resources",
+      "OAuth2 Response"
+    ]
+  },
+  "license": "APACHE 2"
+}

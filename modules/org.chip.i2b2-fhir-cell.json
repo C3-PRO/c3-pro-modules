@@ -1,0 +1,26 @@
+{
+  "name": "i2b2 FHIR Cell",
+  "short": "A 🔥FHIR DSTU-2 compliant cell for i2b2.",
+  "description": "An i2b2 🔥FHIR DSTU-2 compliant cell. In this first release the cell accepts `PUT` and `POST` REST calls for the resources mentioned above, converting them to i2b2 facts.",
+  "web": "https://github.com/chb/i2b2-fhir-cell",
+  "git": "https://github.com/chb/i2b2-fhir-cell.git",
+  "docs": "https://chb.github.io/i2b2-fhir-cell/",
+  "author": {
+    "name": "CHIP, Boston Children’s Hospital",
+    "web": "http://chip.org"
+  },
+  "type": [
+    "storage"
+  ],
+  "technologies": [
+    "i2b2",
+    "JBoss",
+    "Java"
+  ],
+  "interfaces": {
+    "input": [
+      "FHIR Resources"
+    ]
+  },
+  "license": "APACHE 2"
+}

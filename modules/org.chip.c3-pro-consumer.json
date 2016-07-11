@@ -1,0 +1,31 @@
+{
+  "name": "C3-PRO “Consumer”",
+  "short": "Daemon that runs in-house, consumes from the “receiver”'s SQS queue and decrypts 🔥FHIR resources.",
+  "description": "Daemon that runs in-house with highly limited access. Consumes from the “receiver”'s SQS queue, decrypts the 🔥FHIR resources and sends them into i2b2 using the newly created C3-PRO FHIR i2b2 cell. To ensure that all data is recorded properly, encrypted raw data is also stored in-house as BLOB.",
+  "web": "https://github.com/chb/c3-pro-consumer",
+  "git": "https://github.com/chb/c3-pro-consumer.git",
+  "docs": "http://chb.github.io/c3-pro-consumer/",
+  "author": {
+    "name": "CHIP, Boston Children’s Hospital",
+    "web": "http://chip.org"
+  },
+  "type": [
+    "backend"
+  ],
+  "technologies": [
+    "AWS",
+    "JBoss",
+    "Java",
+    "Encryption"
+  ],
+  "interfaces": {
+    "input": [
+      "FHIR Resources",
+      "Encrypted FHIR Resources"
+    ],
+    "output": [
+      "FHIR Resources"
+    ]
+  },
+  "license": "APACHE II"
+}

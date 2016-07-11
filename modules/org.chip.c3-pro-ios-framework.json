@@ -1,0 +1,36 @@
+{
+  "name": "C3-PRO iOS Framework",
+  "short": "This iOS framework allows you to use 🔥FHIR resources directly with ResearchKit.",
+  "description": "Combining 🔥FHIR and ResearchKit, the iOS framework allows you to use FHIR `Questionnaire` resources directly with ResearchKit and will return FHIR `QuestionnaireResponse` that you can send to your server. In addition, a FHIR `Contract` resource can be used to carry trial eligibility requirements and define content to be shown during consenting. Subsequently, the contract can be “signed” with a FHIR `Patient` resource and returned to your server, indicating consent.",
+  "web": "https://github.com/chb/c3-pro-ios-framework",
+  "git": "https://github.com/chb/c3-pro-ios-framework.git",
+  "docs": "http://chb.github.io/c3-pro-ios-framework/",
+  "author": {
+    "name": "CHIP, Boston Children’s Hospital",
+    "web": "http://chip.org",
+    "contact": "pascal.pfiffner@childrens.harvard.edu"
+  },
+  "type": [
+    "mobile"
+  ],
+  "technologies": [
+    "iOS",
+    "ResearchKit",
+    "Swift",
+    "OAuth2",
+    "Encryption"
+  ],
+  "interfaces": {
+    "input": [
+      "FHIR Resources",
+      "Particpant Input",
+      "Sensor Data",
+      "Geodata"
+    ],
+    "output": [
+      "FHIR Resources",
+      "Encrypted FHIR Resources"
+    ]
+  },
+  "license": "APACHE 2"
+}

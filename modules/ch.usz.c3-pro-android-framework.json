@@ -1,9 +1,10 @@
 {
   "name": "C3-PRO Android Framework",
   "short": "This framework uses the HAPI 🔥FHIR library and ResearchStack to bring C3-PRO to Android.",
-  "description": "Combining 🔥FHIR and ResearchStack, this Android framework allows you to use FHIR `Questionnaire` resources directly with ResearchStack and will return FHIR `QuestionnaireResponse` that you can send to your server.",
+  "description": "Combining 🔥FHIR and ResearchStack, this Android framework allows you to use FHIR `Questionnaire` resources directly with ResearchStack and will return FHIR `QuestionnaireResponse` that you can send to your server. In addition, a FHIR `Contract` resource can be used to carry trial eligibility requirements and define content to be shown during consenting.",
   "web": "https://github.com/C3-PRO/c3-pro-android-framework",
   "git": "https://github.com/C3-PRO/c3-pro-android-framework.git",
+  "docs": "https://c3-pro.github.io/c3-pro-android-framework/",
   "author": {
     "name": "MHC, University Hospital Zurich",
     "web": "http://www.usz.ch",
